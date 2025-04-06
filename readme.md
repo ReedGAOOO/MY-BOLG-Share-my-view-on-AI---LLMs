@@ -1,10 +1,15 @@
-It feels related to the current AI training methods.
+# My prediction for the technical approach of next 2 weeks' ChatGPT o4-mini
 
-Current AI training methods, like reinforcement learning, only emphasize the "independent event" training framework. Within this framework, each piece of information is judged solely on its own correctness, and reinforcement learning is applied only to this aspect.
+April 6, 2025
 
-However, human high learning efficiency, besides emphasizing the correctness of each piece of information within the "independent event" framework, also emphasizes how to perform some [logically unnecessary reasoning, in terms of correctness] based on this information.
-For example: How to abstract experience based on this information, and then transfer and apply this abstracted experience to other information?
+Based on observed limitations in current AI training, here's a thought on what might underpin the anticipated ChatGPT o4-mini.
 
-But current AI training methods don't do this. Even though AI has already implemented certain mathematical concepts in other mathematical contexts, if you change a few parts of a mathematical problem while keeping the underlying mathematical concept the same, the AI fails.
+Current AI training methodologies, such as reinforcement learning, heavily emphasize optimizing for the correctness of information within an "independent event" framework. The focus is primarily on reinforcing the right or wrong outcome for each specific instance.
 
-When AI training breaks through the current "independent event" training framework, the AI training model can effectively reward the AI for extracting experience from past training events and using it to help with ongoing training events. At that point, AI capabilities should see another boost.
+However, highly efficient human learning goes beyond this. While correctness is crucial, humans also excel at applying logical reasoning based on information – reasoning that isn't strictly necessary just to determine correctness. This includes abstracting experiences from specific information and transferring that abstracted knowledge to other, potentially different, contexts.
+
+Today's AI often struggles with this. An AI might master a mathematical concept but fail when the problem is presented slightly differently, even if the core mathematical idea remains identical. This suggests a weakness in generalizing and transferring learned experiences.
+
+My prediction is that a significant advancement, perhaps seen in o4-mini, would involve breaking away from this "independent event" training limitation. A potential technical direction could be a training model that explicitly rewards the AI for extracting insights and experiences from past training events and applying them effectively to new, ongoing tasks.
+
+If ChatGPT o4-mini incorporates such mechanisms—enhancing its ability to abstract and transfer experience—we should expect a noticeable improvement in its overall capability and learning efficiency.
